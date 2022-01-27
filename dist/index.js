@@ -580,8 +580,10 @@ try {
       const branch = branchData.ref.replace("refs/heads/", "");
       branchNames.push(branch);      
     }
-    
-    core.setOutput("LIST", branchNames.join());
+
+   	const join = branchNames.join();
+	console.log(join);
+    core.setOutput("LIST", join);
   } catch (error) {
     core.setFailed(error.message);
   }
