@@ -15,4 +15,4 @@ outputs:
     description: "matching branches list, separated by comma"
 runs:
   using: "node12"
-  main: "index.js"
+  main: "dist/index.js"
