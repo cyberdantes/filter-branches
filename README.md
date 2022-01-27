@@ -1,4 +1,4 @@
-# sync-branches-pr
+# filter-branches
 
 GitHub Action to return branchs list filtered separated by comma.
 
